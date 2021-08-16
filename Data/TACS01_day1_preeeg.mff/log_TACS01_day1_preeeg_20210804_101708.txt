@@ -1,0 +1,95 @@
+00:00:00.006.054: --- EEG START RECORDING ---------------------------------------------------------------------------------
+00:00:00.006.123:          Name: TACS01_day1_preeeg_20210804_101708.mff
+00:00:00.006.188:          Date: 2021-08-01 04:16:24.840518 PM GMT-4, unix 1627848984, micro 1627848984840518
+00:00:00.006.247:   Acquisition: 5.4.3-R (r30787)
+00:00:00.006.277:      Mac OS X: 10.14.4 (18E226)
+00:00:00.006.333:         Model: iMac18,3
+00:00:00.006.386:           GHz: 3.40
+00:00:00.006.441:  # Processors: 4
+00:00:00.006.472:        Memory: 16.00 GB
+00:00:00.006.512:           MFF: 3
+00:00:00.006.570:  Amp Serial #: A16210610
+00:00:00.006.593:      Amp Type: NA400
+00:00:00.006.615:  Amp Firmware: 2.0.16
+00:00:00.006.638:  Amp Channels: 128
+00:00:00.006.663:  Legacy Board: false
+00:00:00.006.698: Sensor Layout: HydroCel GSN 128 1.0
+00:00:00.006.723: Sampling Rate: 1000 s/s Fast Recovery
+00:00:00.006.750:         Video: None
+00:00:00.006.797:         Audio: None
+00:00:00.006.842: ---------------------------------------------------------------------------------------------------------
+00:00:00.011.217: NSAToolbarDelegate.m:803 NSAToolbarDelegate:updateInterface _onOff YES, _recordButton YES, _stopButton YES,
+00:00:00.011.522: NSARecording.m:326 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: signal blocks 3
+00:00:00.011.581: NSARecording.m:334 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: xml 3
+00:00:00.011.675: ENOLISController.mm:1001 ENOLISController:getAmpDetails: 
+00:00:00.016.999: NSARecording.m:351 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: EEG shift: 0 ms - PNS shift: 3 ms = -3 ms
+00:00:00.017.064: NSARecording.m:352 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: EEG shift: 0 samples - PNS shift: 3 samples = -3 samples
+00:00:00.017.148: NSARecording.m:371 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: /Users/egi/Documents/Net Station User Data/Sessions/TACS01_day1_preeeg_20210804_101708.mff
+00:00:00.018.203: NSARecording.m:2337 NSARecording:writeInfo_EEG 
+00:00:00.018.299: NSARecording.m:2426 NSARecording:appendCallibrations:ofType:withTimes:to: GCAL 1 00:00:00.000
+00:00:00.018.650: NSARecording.m:2860 NSARecording:copySensorlayoutFile 
+00:00:00.018.694: NSARecording.m:2900 NSARecording:copyCoordinatesFile 00:00:00.018.683: NSARecording.m:2377 
+NSARecording:writeInfo_EEG
+00:00:00.019.328: NSARecording.m:3385 NSARecording:writeTRsPerVolume None
+00:00:00.019.381: NSARecording.m:3448 NSARecording:writeAcquiringXML 
+00:00:00.019.737: NSARecording.m:2872 NSARecording:copySensorlayoutFile
+00:00:00.020.021: NSARecording.m:2918 NSARecording:copySensorlayoutFile
+00:00:00.020.314: NSARecording.m:2713 NSARecording:writePatientInfo
+00:00:00.020.824: NSARecording.m:2794 NSARecording:writeTechNote RTF
+00:00:00.021.425: NSARecording.m:3462 NSARecording:writeAcquiringXML
+00:00:00.414.624: EAmpController.m:2304 EAmpController:currentSampleDate currentSampleDate 2021-08-01 20:16:24 +0000, _sampleCount 1469146 - currentAmpTime 1469583 = -437
+00:00:00.414.739: PLTRecord.m:1839 PLTRecord:sampleData:sampleCount: 
+00:00:00.414.775: 
+00:00:00.414.803: Sample Provider timing info
+00:00:00.414.826:      Reference Date: 1 January 1970, GMT
+00:00:00.414.849:      Amp Start Time: 1627847515694518
+00:00:00.414.903:      Amp Start Date: 2021-08-01 03:51:55.694518 PM GMT-4
+00:00:00.414.944: Current Sample Date: 2021-08-01 04:16:24.840518 PM GMT-4
+00:00:00.414.967:      Stream Up Time: 1469.146000 seconds
+00:00:00.414.990: 
+00:00:00.424.772: EAmpController.m:2304 EAmpController:currentSampleDate currentSampleDate 2021-08-01 20:16:24 +0000, _sampleCount 1469146 - currentAmpTime 1469594 = -448
+00:00:00.429.326: NSARecording.m:776 NSARecording:writeSampleData:sampleCount: 
+00:00:00.429.379: NSARECORDING first sample received
+00:00:00.429.413:        stream uptime 1469.146000
+00:00:00.429.498: recording _startDate 2021-08-01 04:16:24.840518 PM GMT-4, epoch 1627848984, micro 1627848984840518
+00:00:00.429.541:   stream sample date 2021-08-01 04:16:24.840518 PM GMT-4
+00:00:00.429.567:                 diff 0.000000
+00:00:00.429.592:   _end_ns (5339026089975) - _start_ns (5338612089975) = 414000000, sampleCount 414
+00:00:00.429.627: NSARecording.m:2227 NSARecording:writeInfo 
+00:00:00.429.691: ENOLISController.mm:1001 ENOLISController:getAmpDetails: 
+00:00:00.434.118: NSARecording.m:866 NSARecording:writeSampleData:sampleCount: _firstSampleWritten = YES
+00:00:00.434.128: NSARecording.m:2256 NSARecording:writeInfo
+00:00:00.437.427: PLTRecord.m:1047 PLTRecord:firstSample: 
+00:04:01.985.895: NSAEvent2.m:288 NSAImageParent:dealloc Net Connected
+00:04:15.991.371: NSAEvent2.m:288 NSAImageParent:dealloc Impedances Begin
+00:05:22.143.278: PLTRecord.m:718 PLTRecord:stopAll 
+00:05:22.143.364: --- EEG STOP RECORDING ----------------------------------------------------------------------------------
+00:05:22.143.729: --- EEG HANDLE STOP RECORDING ---------------------------------------------------------------------------
+00:05:22.165.865: PLTRecord.m:1488 PLTRecord:handleStopRecording Recording duration 322.142000, record duration 322.142000
+00:05:22.166.279: NSADelegate.mm:725 NSADelegate:recordingStopped: 
+00:05:22.175.077: 
+00:05:22.175.213: Sample Provider timing info
+00:05:22.175.262:     Amp Start Time: 140734452929276
+00:05:22.175.364:     Amp Start Date: 2021-08-01 03:51:55.694518 PM GMT-4
+00:05:22.175.393:     Stream Up Time: 1791.288000 seconds
+00:05:22.175.416: 
+00:05:22.175.597: NSARecording.m:160 NSARecording:lastWrites top signal blocks 3
+00:05:22.175.901: NSARecording.m:3347 NSARecording:writeEpoch #1, beginTime: 0, endTime: 322142000, firstBlock: 1, lastBlock: 81
+00:05:22.176.679: NSARecording.m:3056 NSARecording:writeWorkspace 
+00:05:22.177.766: NSARecording.m:1227 offset 1052, egiType 
+00:05:22.181.617: NSPopUpButton+Extras.m:91 NSPopUpButton:indexOfSelectedItemInRange: No selection in range {8, 1}
+00:05:22.182.143: NSDictionary+Extras.m:135 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: splitView_
+00:05:22.182.809: NSDictionary+Extras.m:135 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: psgView_
+00:05:22.182.855: NSDictionary+Extras.m:135 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: _srcSinkView
+00:05:22.182.892: NSDictionary+Extras.m:135 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: channel settings
+00:05:22.182.977: NSDictionary+Extras.m:135 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: video setting
+00:05:22.183.029: NSDictionary+Extras.m:135 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: positions
+00:05:22.183.122: NSDictionary+Extras.m:130 __NSDictionaryM:safeSetObject:forKey: aKey cannot be nil
+00:05:22.183.161: NSDictionary+Extras.m:137 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key
+00:05:22.203.890: NSADelegate.mm:936 NSADelegate:developmentFeaturesEnabled NO
+00:05:22.204.536: NSARecording.m:3115 NSARecording:writeWorkspace
+00:05:22.204.597: NSARecording.m:3497 NSARecording:removeAcquiringXML 
+00:05:22.204.693: GTENWindowController.mm:1783 GTENWindowController:stop: error [1] Not modulating
+00:05:22.207.163: NSARecording.m:3507 NSARecording:removeAcquiringXML
+00:05:22.878.292: PLTRecord.m:1617 PLTRecord:lastWritesComplete: _recording
+00:05:22.878.458: --- NSARECORDING dealloc --------------------------------------------------------------------------------
